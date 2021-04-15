@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background-color: rgb(40, 65, 66);
+  font-family: sans-serif;
+  color: #fff;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  gap: 2rem;
+}
+
+#game-container h1 {
+  font-size: 1.6rem;
+}
+
+#game-screen {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+
+  width: 288px;
+  height: 512px;
+  image-rendering: pixelated;
+  border-radius: 4px;
+  border: 10px solid #eee;
+  border-top-width: 20px;
+  border-bottom-width: 40px;
+}
